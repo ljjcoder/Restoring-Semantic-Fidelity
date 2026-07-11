@@ -6,8 +6,10 @@
 
 <h1>Restoring Semantic Fidelity for Training-Free High-Resolution Image Generation in Diffusion Transformers</h1>
 
+</div>
 
-
+:bell: **News:**
+* [2026-07-10] We are happy to announce that PCL was accepted at **ACM MM2026**.
 
 ## Comparing with SR method, [StableSR](https://github.com/IceClear/StableSR), [SUPIR](https://github.com/Fanghua-Yu/SUPIR)
 <img src="__assets__/SR_based.jpg" width="100%" alt="Teaser">
@@ -15,7 +17,7 @@
 ## Comparing with training-based method, [HunyuanImage](https://github.com/Tencent-Hunyuan/HunyuanImage-2.1), [Sana1.5](https://github.com/NVlabs/Sana)
 <img src="__assets__/training_based.jpg" width="100%" alt="Teaser">
 
-</div>
+
 
 ## 🔧 Installations
 ### Setup repository and conda environment
@@ -43,7 +45,7 @@ Model downloading is automatic.
 
 
 
-## 📎 Citation 
+<!-- ## 📎 Citation 
 
 If you find our work helpful, please consider giving a star ⭐ and citation 📝 
 ```bibtex
@@ -53,7 +55,7 @@ If you find our work helpful, please consider giving a star ⭐ and citation �
   journal={arXiv preprint arXiv:2504.06232},
   year={2025}
 }
-```
+``` -->
 
 
 
