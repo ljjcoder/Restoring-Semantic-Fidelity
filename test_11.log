@@ -1,0 +1,41 @@
+/home/lijunjie/anaconda3/envs/hiflow/lib/python3.10/site-packages/pytorch_wavelets/dtcwt/coeffs.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_stream
+Loading pipeline components...:   0%|          | 0/6 [00:00<?, ?it/s]Loading pipeline components...:  17%|█▋        | 1/6 [00:00<00:03,  1.39it/s]
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s][A
+Loading checkpoint shards:  50%|█████     | 1/2 [00:10<00:10, 10.63s/it][A
+Loading checkpoint shards: 100%|██████████| 2/2 [00:20<00:00, 10.41s/it][ALoading checkpoint shards: 100%|██████████| 2/2 [00:20<00:00, 10.44s/it]
+Loading pipeline components...:  33%|███▎      | 2/6 [00:22<00:51, 12.90s/it]Loading pipeline components...:  67%|██████▋   | 4/6 [00:22<00:09,  4.86s/it]Loading pipeline components...:  83%|████████▎ | 5/6 [00:23<00:03,  3.79s/it]You set `add_prefix_space`. The tokenizer needs to be converted from the slow tokenizers
+Loading pipeline components...: 100%|██████████| 6/6 [00:24<00:00,  2.79s/it]Loading pipeline components...: 100%|██████████| 6/6 [00:24<00:00,  4.04s/it]
+True 6125624537391420663
+  0%|          | 0/30 [00:00<?, ?it/s]  3%|▎         | 1/30 [00:01<00:46,  1.61s/it]  7%|▋         | 2/30 [00:03<00:42,  1.53s/it] 10%|█         | 3/30 [00:04<00:40,  1.50s/it] 13%|█▎        | 4/30 [00:06<00:38,  1.49s/it] 17%|█▋        | 5/30 [00:07<00:37,  1.49s/it] 20%|██        | 6/30 [00:08<00:35,  1.48s/it] 23%|██▎       | 7/30 [00:10<00:34,  1.48s/it] 27%|██▋       | 8/30 [00:11<00:32,  1.48s/it] 30%|███       | 9/30 [00:13<00:31,  1.48s/it] 33%|███▎      | 10/30 [00:14<00:29,  1.48s/it] 37%|███▋      | 11/30 [00:16<00:28,  1.48s/it] 40%|████      | 12/30 [00:17<00:26,  1.49s/it] 43%|████▎     | 13/30 [00:19<00:25,  1.49s/it] 47%|████▋     | 14/30 [00:20<00:23,  1.49s/it] 50%|█████     | 15/30 [00:22<00:22,  1.49s/it] 53%|█████▎    | 16/30 [00:23<00:20,  1.49s/it] 57%|█████▋    | 17/30 [00:25<00:19,  1.49s/it] 60%|██████    | 18/30 [00:26<00:17,  1.50s/it] 63%|██████▎   | 19/30 [00:28<00:16,  1.50s/it] 67%|██████▋   | 20/30 [00:29<00:15,  1.50s/it] 70%|███████   | 21/30 [00:31<00:13,  1.50s/it] 73%|███████▎  | 22/30 [00:32<00:12,  1.50s/it] 77%|███████▋  | 23/30 [00:34<00:10,  1.51s/it] 80%|████████  | 24/30 [00:35<00:09,  1.51s/it] 83%|████████▎ | 25/30 [00:37<00:07,  1.51s/it] 87%|████████▋ | 26/30 [00:38<00:06,  1.51s/it] 90%|█████████ | 27/30 [00:40<00:04,  1.51s/it] 93%|█████████▎| 28/30 [00:41<00:03,  1.51s/it] 97%|█████████▋| 29/30 [00:43<00:01,  1.52s/it]100%|██████████| 30/30 [00:45<00:00,  1.52s/it]100%|██████████| 30/30 [00:45<00:00,  1.50s/it]
+### Start Sampling 2048 x 2048 Resolution ###
+  0%|          | 0/16 [00:00<?, ?it/s]  0%|          | 0/16 [00:00<?, ?it/s]
+alpha: 1.0, beta: 1.0
+Traceback (most recent call last):
+  File "/data_2/lijunjie/code/Hiresolution_generate/training_free/HiFlow-main/Dit_github/run_test.py", line 225, in <module>
+    images,low_high_result = pipe(
+  File "/home/lijunjie/anaconda3/envs/hiflow/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/data_2/lijunjie/code/Hiresolution_generate/training_free/HiFlow-main/Dit_github/flux_pipeline.py", line 991, in __call__
+    noise_pred = self.transformer(
+  File "/home/lijunjie/anaconda3/envs/hiflow/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/lijunjie/anaconda3/envs/hiflow/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/data_2/lijunjie/code/Hiresolution_generate/training_free/HiFlow-main/Dit_github/transformer_flux.py", line 673, in forward
+    encoder_hidden_states, hidden_states = block(
+  File "/home/lijunjie/anaconda3/envs/hiflow/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/lijunjie/anaconda3/envs/hiflow/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/data_2/lijunjie/code/Hiresolution_generate/training_free/HiFlow-main/Dit_github/transformer_flux.py", line 296, in forward
+    attn_output, context_attn_output = self.attn(
+  File "/home/lijunjie/anaconda3/envs/hiflow/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/lijunjie/anaconda3/envs/hiflow/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/lijunjie/anaconda3/envs/hiflow/lib/python3.10/site-packages/diffusers/models/attention_processor.py", line 588, in forward
+    return self.processor(
+  File "/data_2/lijunjie/code/Hiresolution_generate/training_free/HiFlow-main/Dit_github/utils.py", line 792, in __call__
+    print(image_query.shap)
+AttributeError: 'Tensor' object has no attribute 'shap'. Did you mean: 'shape'?

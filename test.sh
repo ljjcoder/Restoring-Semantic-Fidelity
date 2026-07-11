@@ -1,0 +1,12 @@
+CUDA_VISIBLE_DEVICES=0 python run_test.py \
+  --iter_id 0 \
+  --use_tvsda_attention True\
+  --use_npa_attention False\
+  --use_local_attention False\
+  --use_x0_low_guidance True\
+  --use_x0_hres True\
+  --use_low_pass_x0_hres True\
+  --weight_x0_hres 1.0 \
+  --use_v_res True\
+  --use_low_pass_v_res True\
+  --weight_vres 1.0  > test_11.log 2>&1 &
