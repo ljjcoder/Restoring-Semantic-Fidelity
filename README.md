@@ -13,7 +13,7 @@
 <img src="__assets__/SR_based.jpg" width="100%" alt="Teaser">
 
 ## Comparing with training-based method, [HunyuanImage](https://github.com/Tencent-Hunyuan/HunyuanImage-2.1), [Sana1.5](https://github.com/NVlabs/Sana)
-<img src="__assets__/SR_based.jpg" width="100%" alt="Teaser">
+<img src="__assets__/training_based.jpg" width="100%" alt="Teaser">
 
 
 ## 🔧 Installations
@@ -28,32 +28,7 @@ conda activate RSF
 
 pip install -r requirements.txt
 ```
-### (Optional) Prepare LoRA models
-HiFlow can be seamlessly integrated with various LoRA models. 
 
-<table class="center">
-    <tr>
-    <td><img src="__assets__/aidmafluxpro_1.png"></td>
-    <td><img src="__assets__/aidmafluxpro_2.png"></td>
-    </tr>
-</table>
-<p style="margin-left: 2em; margin-top: -1em">Model：<a href="https://civitai.com/models/832683/flux-pro-11-style-lora-extreme-detailer-for-flux-illustrious">aidmaFLUXPro</a> (More and Finer Details)</p> 
-
-<table class="center">
-    <tr>
-    <td><img src="__assets__/aidmarealisticskin_1.png"></td>
-    <td><img src="__assets__/aidmarealisticskin_2.png"></td>
-    </tr>
-</table>
-<p style="margin-left: 2em; margin-top: -1em">Model：<a href="https://civitai.com/models/1157318/photorealistic-skin-no-plastic-flux">aidmaRealisticSkin</a> (Realistic Skin)</p> 
-
-<table>
-    <tr>
-    <td><img src="__assets__/wukong_1.png"></td>
-    <td><img src="__assets__/wukong_2.png"></td>
-    </tr>
-</table>
-<p style="margin-left: 2em; margin-top: -1em">Model：<a href="https://civitai.com/models/681691/black-myth-wukong-flux">Black Myth Wukong</a> (T2I Customization)</p>
 
 
 
@@ -64,9 +39,6 @@ HiFlow can be seamlessly integrated with various LoRA models.
 sh test.sh
 ```
 Model downloading is automatic.
-
-
-
 
 
 
