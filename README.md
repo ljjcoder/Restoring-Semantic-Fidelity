@@ -9,7 +9,7 @@
 </div>
 
 :bell: **News:**
-* [2026-07-10] We are happy to announce that PCL was accepted at **ACM MM2026**.
+* [2026-07-10] We are happy to announce that our paper was accepted at **ACM MM2026**.
 
 ## Comparing with SR method, [StableSR](https://github.com/IceClear/StableSR), [SUPIR](https://github.com/Fanghua-Yu/SUPIR)
 <img src="__assets__/SR_based.jpg" width="100%" alt="Teaser">
