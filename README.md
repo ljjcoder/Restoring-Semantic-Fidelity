@@ -15,6 +15,7 @@
 ## Comparing with training-based method, [HunyuanImage](https://github.com/Tencent-Hunyuan/HunyuanImage-2.1), [Sana1.5](https://github.com/NVlabs/Sana)
 <img src="__assets__/training_based.jpg" width="100%" alt="Teaser">
 
+</div>
 
 ## 🔧 Installations
 ### Setup repository and conda environment
